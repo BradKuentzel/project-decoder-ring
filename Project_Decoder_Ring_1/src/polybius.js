@@ -11,7 +11,7 @@ function polybius(input, encode = true) {
     if(encode){
         for(let characters in input){
             const character = input[characters];
-            if(character === ''){
+            if(character === ' '){
                 result += character;
                 continue;
             }
